@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 55px 135.66px;
+    padding: 55px 135.66px 0;
 }
 
 .gpt3__navbar-links {
@@ -97,7 +97,10 @@
     display: none;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1280px) {
+    .gpt3__navbar {
+        padding-bottom: 3rem;
+    }
     .gpt3__navbar-links_container {
         display: none;
     }
@@ -109,13 +112,13 @@
 
 @media screen and (max-width: 700px) {
     .gpt3__navbar {
-        padding: 2rem 3rem;
+        padding: 2rem 3rem 0;
     }
 }
 
 @media screen and (max-width: 550px) {
     .gpt3__navbar {
-        padding: 2rem;
+        padding: 2rem 2rem 0;
     }
     .gpt3__navbar-sign {
         display: none;

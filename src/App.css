@@ -15,11 +15,12 @@ a {
 }
 
 .gradient__bg {
-    background:-moz-radial-gradient(circle at 9% 15%, rgba(0, 40, 83, 1) 1%, rgba(4, 12, 24, 1) 100%);
-    background:-webkit-radial-gradient(circle at 9% 15%, rgba(0, 40, 83, 1) 1%, rgba(4, 12, 24, 1) 100%);
-    background:-o-radial-gradient(circle at 9% 15%, rgba(0, 40, 83, 1) 1%, rgba(4, 12, 24, 1) 100%);
-    background:-ms-radial-gradient(circle at 9% 15%, rgba(0, 40, 83, 1) 1%, rgba(4, 12, 24, 1) 100%);
-    background:radial-gradient(circle at 9% 15%, rgba(0, 40, 83, 1) 1%, rgba(4, 12, 24, 1) 100%);
+    background:-moz-radial-gradient(circle at top left, rgba(0, 40, 83, 1) 1%, rgba(4, 12, 24, 1) 25%);
+    background:-webkit-radial-gradient(circle at top left, rgba(0, 40, 83, 1) 1%, rgba(4, 12, 24, 1) 25%);
+    background:-o-radial-gradient(circle at top left, rgba(0, 40, 83, 1) 1%, rgba(4, 12, 24, 1) 25%);
+    background:-ms-radial-gradient(circle at top left, rgba(0, 40, 83, 1) 1%, rgba(4, 12, 24, 1) 25%);
+    background:radial-gradient(circle at top left, rgba(0, 40, 83, 1) 1%, rgba(4, 12, 24, 1) 25%);
+
 }
 
 .gradient__text {
@@ -30,11 +31,11 @@ a {
 }
 
 .section__padding {
-    padding: 4rem 6rem;
+    padding: 55px 135.66px;
 }
 
 .section__margin {
-    margin: 4rem 6rem;
+    margin: 55px 135.66px;
 }
 
 .scale-up-center {
